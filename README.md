@@ -28,38 +28,48 @@ ConnectBuy es una aplicación de comercio electrónico que permite a los usuario
 
 ## Instalación 🚀
 
-1. Clona el repositorio:
-\`\`\`bash
+1. **Clona el repositorio:**
+```bash
 git clone https://github.com/tu-usuario/connectBuy.git
 cd connectBuy
-\`\`\`
+```
 
-2. Instala las dependencias:
-\`\`\`bash
+2. **Instala las dependencias:**
+```bash
 npm install
-\`\`\`
+```
 
-3. Inicia el servidor de websockets:
-\`\`\`bash
+3. **Inicia el servidor de websockets:**
+```bash
 npm run server
-\`\`\`
+```
 
-4. Inicia el servidor de desarrollo:
-\`\`\`bash
+4. **Inicia el servidor de desarrollo:**
+```bash
 npm run dev
 \`\`\`
 
 ## Estructura del Proyecto 📁
 
-\`\`\`
+```plaintext
 connectBuy/
 ├── src/
-│   ├── components/     # Componentes reutilizables
-│   ├── hooks/         # Custom hooks
-│   ├── state/         # Gestión de estado (Zustand)
-│   ├── utils/         # Utilidades y helpers
-│   ├── views/         # Componentes de página/vista
-│   └── App.tsx        # Componente principal
-├── public/           # Archivos estáticos
-└── package.json      # Dependencias y scripts
-\`\`\`
+│   ├── components/    # Componentes reutilizables
+│   │   ├── navbar/
+│   │   ├── productCard/
+│   │   ├── searchBar/
+│   │   └── filters/
+│   ├── hooks/        # Custom hooks
+│   │   ├── useProducts.ts
+│   │   └── useNotifications.ts
+│   ├── state/        # Gestión de estado (Zustand)
+│   │   └── filtersStore/
+│   ├── utils/        # Utilidades y helpers
+│   │   ├── location.ts
+│   │   └── server.ts
+│   ├── views/        # Componentes de página/vista
+│   │   └── Home/
+│   └── App.tsx       # Componente principal
+├── public/          # Archivos estáticos
+└── package.json     # Dependencias y scripts
+```
