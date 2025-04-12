@@ -47,7 +47,7 @@ npm run server
 4. **Inicia el servidor de desarrollo:**
 ```bash
 npm run dev
-\`\`\`
+```
 
 ## Estructura del Proyecto 📁
 
