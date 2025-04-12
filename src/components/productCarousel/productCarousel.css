@@ -1,0 +1,12 @@
+.carousel-container {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    min-height: 300px; 
+    display: flex;
+    align-items: center;
+}
+
+.carousel-item-padding-40-px {
+    padding-left: 20px;
+    padding-right: 20px;
+}
